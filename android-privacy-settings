@@ -1,0 +1,529 @@
+# Privacy settings
+
+This guide attempts to highlight all privacy-related settings for Android that you might want to set or change. They are provided for Android 7.1.2 (October 2017) and 8.0.0 (March 2018). If you choose to enable specific apps (or not disable them) you should check their settings yourself, since they are not covered here.
+
+Please get in touch if there are errors or missing settings.
+
+Special symbols used in this guide:
+- unk = unknown
+- #cogwheel
+- #threeVerticalDots
+- #notAvailable
+- #pencilSymbol
+- #cancel
+- #threeHorizontalLines
+- #selectSimCard
+
+
+## Disable unwanted/unneeded apps
+
+- 7.1.2: "Settings > Device: Apps"
+- 8.0.0: "Settings > Apps & notifications > App info > #threeVerticalDots > Show System"
+
+	- Disable App "Google" (Google)
+		- Note: This is the only app from the list of disabled apps for which this guide provides privacy-related settings (see below).
+	- Disable App "Duo" (Google)
+	- Disable App "Gmail" (Google)
+	- Disable App "Maps" (Google)
+	- Disable App "Drive" (Google)
+	- Disable App "Chrome" (Google)
+	- Disable App "Keep" (Google)
+	- Disable App "Google Play Newsstand" (Google)
+	- Disable App "Google Play Books" (Google)
+	- Disable App "Google Play Games" (Google)
+	- Disable App "Google Play Music" (Google)
+	- Disable App "Google Play Movies & TV" (Google)
+	- Disable App "Cloud Print" (Google)
+
+
+## System settings
+
+- Disable Location (GPS): 
+	- 7.1.2: "Settings > Personal: Location" = off (default = on)
+	- 8.0.0: "Settings > Security & location > Privacy: Location" = off (default = unk)
+
+		- 7.1.2: "Settings > Apps" > #cogwheel > App permissions > Location > #threeVerticalDots > Show system" = all off (default = unk)
+		- 8.0.0: " ... > App-level permissions > #threeVerticalDots > Show system" = all off (default = unk)
+
+		- 7.1.2: " ... > #threeVerticalDots > Scanning > Wi-Fi scanning" = off (default = unk)
+		- 8.0.0: " ... > Scanning > Wi-Fi scanning" = off (default = unk)
+
+		- 7.1.2: " ... > #threeVerticalDots > Scanning > Bluethooth scanning" = off (default = unk)
+		- 8.0.0: " ... > Scanning > Bluethooth scanning" = off (default = unk)
+
+		- 7.1.2: " ... > Location Services: Google Location History" = off (default = unk)
+			- Note: may only be available with Google account and Internet connection
+			- Note: here you can also "manage location history"
+		- 8.0.0: " ... > Location Services: Google Location History" = off (default = unk)
+			- Note: may only be available with Google account and Internet connection
+			- Note: here you can also "delete location history"
+
+		- 7.1.2: " ... > Location Services: Google Location Sharing" = no apps (default = unk)
+			- Note: may only be available with Google account and Internet connection
+		- 8.0.0: " ... > Location Services: Google Location Sharing" = no apps (default = unk)
+			- Note: may only be available with Google account and Internet connection
+
+
+- Disable NFC: 
+	- 7.1.2: "Settings > Wireless & networks: More ... > NFC" = off (default = on)
+	- 8.0.0: "Settings > Connected devices > NFC" = off (default = unk)
+
+
+- Disable Bluetooth:
+	- 7.1.2: "Settings > Wireless & networks: Bluetooth" = off (default = on)
+	- 8.0.0: "Settings > Connected devices > Bluetooth" = off (default = unk)
+
+
+- Set screen lock:
+	- 7.1.2: "Settings > Personal: Security > Device security: Screen lock > ..."
+		- Pattern: change settings to "Make pattern visible" = off (default = on)
+	- 8.0.0: "Settings > Security & location > Screen lock > ..."
+		- Pattern: change settings to "Make pattern visible" = off (default = unk)
+
+
+- Disable password visibility:
+	- 7.1.2: "Settings > Personal: Security > Passwords: Make passwords visible" = off (default = on)
+	- 8.0.0: "Settings > Security & location > Privacy: Show passwords" = off (default = unk)
+
+
+- Disable device administrators:
+	- 7.1.2: "Settings > Personal: Security > Device Administration: Device administrators" = all off (default = all on)
+		- Note: then you can't remote lock/erase your device
+	- 8.0.0: "Settings > Security & location > Device admin apps" = all off (default = unk)
+		- Note: then you can't remote lock/erase your device
+
+
+- Disable apps from getting usage stats of other apps: 
+	- 7.1.2: "Settings > Personal: Security > Advanced: Apps with usage access > #threeVerticalDots > Show system" = all off (default = all on)
+	- 8.0.0: "Settings > Security & location > Apps with usage access > #threeVerticalDots > Show system" = all off (default = unk)
+
+
+- Disable automatic data synchronization to accounts:
+	- 7.1.2: "Settings > Personal: Accounts > #threeVerticalDots > Auto sync data" = uncheck box (default = checked)
+	- 8.0.0: "Settings > Users & accounts > Automatically sync data" = off (default = unk)
+
+
+- App permissions:
+	- 7.1.2: "Settings > Apps" > #cogwheel > App permissions"
+	- 8.0.0: "Settings > Apps & notification" > App permissions"
+		- 7.1.2: " ... > Body sensors > #threeVerticalDots > Show System" = all off (default = unk)
+		- 8.0.0: " ... > Body sensors" = all off (default = unk)
+			- Note: no "system apps"
+
+		- 7.1.2: " ... > Camera > #threeVerticalDots > Show System" = all off (default = unk)
+		- 8.0.0: " ... > Camera > #threeVerticalDots > Show System" = all off (default = unk)
+
+		- 7.1.2: " ... > Location > #threeVerticalDots > Show System" = all off (default = unk)
+		- 8.0.0: " ... > Location > #threeVerticalDots > Show System" = all off (default = unk)
+
+		- 7.1.2: " ...  > Microphone > #threeVerticalDots > Show System" = all off (default = unk)
+		- 8.0.0: " ...  > Microphone" = all off (default = unk)
+			- Note: no "system apps"
+
+		- 7.1.2: " ... "
+			- Note: not all possible settings are listed in this guide; you should go through the list yourself
+		- 8.0.0: " ... "
+			- Note: not all possible settings are listed in this guide; you should go through the list yourself
+
+
+- Languages & input settings:
+	- 7.1.2: "Settings > Languages & input"
+	- 8.0.0: "Settings > System > Languages & input"
+
+		- 7.1.2: " ... > Personal dictionary"
+			- Note: no setting possible, but keep that in mind that this exists
+		- 8.0.0: " ... > Advanced > Input assistance: Personal dictionary"
+			- Note: no setting possible, but keep that in mind that this exists
+
+
+		- 7.1.2: " ... > Speech: Text-to-speech output > #cogwheel (next to 'Preferred engine: Google Text-to-speech engine') > Settings for Google Text-to-speech engine > Anonymous usage reports" = off (default = on)
+		- 8.0.0: " ... > Advanced > Text-to-speech output > #cogwheel (next to 'Preferred engine: Google Text-to-speech engine') > Anonymous usage reports" = off (default = unk)
+
+		- 7.1.2: " ... > Spell checker > #cogwheel (next to 'Default spell checker') > Look up contact names" = uncheck (default = unk)
+		- 8.0.0: " ... > Advanced > Input assistance: Spell checker > #cogwheel (next to 'Default spell checker') > Look up contact names" = uncheck (default = unk)
+
+		- 7.1.2: #notAvailable
+		- 8.0.0: " ... > Advanced > Input assistance: Auto-fill service > None" = select (default = "Auto-fill with Google")
+
+
+- Backup & reset settings:
+	- 7.1.2: "Settings > Backup & reset"
+	- 8.0.0: "Settings > System > Backup"
+
+		- 7.1.2: " ... > Back up my data" = off (default = off)
+		- 8.0.0: " ... > Back up to Google Drive" = off (default = unk)
+
+		- 7.1.2: " ... > Automatic restore" = off (default = on)
+			- Note: this setting is grayed-out, so can't be changed; changing it might be possible, if previous option is enabled briefly
+		- 8.0.0: #notAvailable
+
+
+- Date & time settings:
+	- 7.1.2: "Settings > Date & time"
+	- 8.0.0: "Settings > System > Date & time"
+
+		- 7.1.2: " ... > Automatic date & time" = off (default = on)
+		- 8.0.0: " ... > Automatic date & time" = off (default = unk)
+
+		- 7.1.2: " ... > Automatic time zone" = off (default = on)
+		- 8.0.0: " ... > Automatic time zone" = off (default = unk)
+
+
+- Accessibility settings: 
+	- 7.1.2: "Settings > Accessibility > System: Speak passwords" = off (default = on)
+	- 8.0.0: "Settings > Accessibility > Screen readers: TalkBack > SETTINGS > Speech: Speak passwords" = off (default = on)
+
+
+- Disable Cloud Printing:
+	- 7.1.2: "Settings > Printing > Printing Services: Cloud Print" = off (default = on)
+	- 8.0.0: "Settings > Connected Devices > Printing > Printing services: Default print service" = off (default = on)
+		- Note: unsure if this is the corresponding settings item to 7.1.2
+
+
+- About phone settings:
+	- 7.1.2: "Settings > About phone > User Experience Program > Diagnostic report: Diagnostic report" = uncheck (default = unchecked)
+	- 8.0.0: "Settings > System > About phone > User Experience Program > Diagnostic report: Diagnostic report" = uncheck (default = unk)
+
+
+- Disable automatic contact syncing: 
+	- 7.1.2: "Settings > Device: Apps > #threeVerticalDots > Show system > Google Contacts Sync" = disable (default = enabled)
+		- Note: might require a restart
+		- Source: https://android.stackexchange.com/questions/24331/add-contact-without-using-google-account#51441
+	- 8.0.0: "Settings > Apps & notifications > App info > #threeVerticalDots > Show system > Google Contacts Sync" = disable (default = unk)
+		- Note: might require a restart
+		- Note: not tested if still necessary in 8.0.0
+
+
+- Settings overview screen (i.e. when pulling down twice from top screen):
+	- 7.1.2: "#pencilSymbol > Drag to add tiles " = drag "Location" tile to upper part, to enable/disable location more easily
+	- 8.0.0: "#pencilSymbol > Drag to add tiles " = drag "Location" tile to upper part, to enable/disable location more easily
+
+
+- IPv6 Privacy Extensions (RFC 4941) enabling
+	- 7.1.2: unk
+	- 8.0.0: unk
+
+
+## App-specific settings
+
+- Google app (Google):
+	- 7.1.2: "Settings > Personal: Google > #threeVerticalDots > Usage & diagnostics" = OFF (default = unk)
+	- 8.0.0: "Settings > Personal: Google > #threeVerticalDots > Usage & diagnostics" = off (default = unk)
+
+
+	- 7.1.2: "Long-click on empty area in main screen > Settings > Show Google App" = off (default = on)
+		- Note: disables opening Google app when swiping in from the left of the screen
+	- 8.0.0: "Long-click on empty area in main screen > Settings > Show Google App" = off (default = on)
+		- Note: disables opening Google app when swiping in from the left of the screen
+
+
+	- 7.1.2: unk
+	- 8.0.0: "Settings > Google > My Account: Sign-in & security"
+		- Note: this is (mostly?) Google account-specific; we don't go into details here, but you should check these settings; some settings can be set directly, others will be set by opening a browser and signing into your Google account
+
+
+	- 7.1.2: unk
+	- 8.0.0: "Settings > Google > My Account: Personal info & privacy" 
+		- Note: this is (mostly?) Google account-specific; we don't go into details here, but you should check these settings; some settings can be set directly, others will be set by opening a browser and signing into your Google account
+
+
+	- 7.1.2: unk
+	- 8.0.0: "Settings > Google > My Account: Account preferences"
+		- Note: this is (mostly?) Google account-specific; we don't go into details here, but you should check these settings; some settings can be set directly, others will be set by opening a browser and signing into your Google account
+
+
+	- 7.1.2: "Settings > Personal: Google > Services: Ads"
+	- 8.0.0: "Settings > Google > Services: Ads"
+
+		- 7.1.2: " ... > Opt out of Ads Personalisation" = on (default = off)
+			- Note: a warning is shown when turning on: "Note that if you clear your cache, you will lose your opt-out setting."
+		- 8.0.0: " ... > Opt out of Ads Personalisation" = on (default = unk)
+
+		- 7.1.2: " ... > Reset advertising ID" = click
+			- Note: keep in mind that it can be reset here
+		- 8.0.0: " ... > Reset advertising ID" = click
+			- Note: keep in mind that it can be reset here
+
+		- 7.1.2: " ... > Ads by Google"
+			- Note: only works with Internet connection and browser
+		- 8.0.0: " ... > Ads by Google"
+			- Note: only works with Internet connection and browser
+			- Note: only shows a website telling you that these settings are now changed with the Google settings app
+
+
+	- 7.1.2: unk
+	- 8.0.0: "Settings > Google > Services: App preview messages" = off (default = unk)
+
+	- 7.1.2: unk
+	- 8.0.0: "Settings > Google > Services: App preview messages > Manage storage > Delete all app preview messages" = click
+		- Note: keep in mind that they can be deleted here
+
+
+	- 7.1.2: unk
+	- 8.0.0: "Settings > Google > Services: Google Fit > Delete history" = click
+		- Note: keep in mind that it can be reset here
+
+
+	- 7.1.2: #notAvailable
+	- 8.0.0: "Settings > Google > Instant Apps" = None (default = <your-google-account>)
+
+
+	- 7.1.2: "Settings > Personal: Google > Services: Nearby > #cancel > #cogwheel"
+		- Warning: click "cancel" right after selecting "Nearby", so that you do not accidentally turn "nearby" on
+	- 8.0.0: "Settings > Google > Services: Nearby > #cancel > #cogwheel"
+		- Warning: click "cancel" right after selecting "Nearby", so that you do not accidentally turn "nearby" on
+
+		- 7.1.2: " ... Nearby links available" = off (default = on)
+			- Warning: after upgrade and/or setting up WiFi, this setting is set back to its default state
+		- 8.0.0: #notAvailable
+
+		- 7.1.2: " ... Devices ready to set up" = off (default = on)
+			- Warning: after upgrade and/or adding WiFi, this setting is set back to its default state
+		- 8.0.0: #notAvailable
+
+		- 7.1.2: #notAvailable
+		- 8.0.0: " ... > Notification categories > Links" = all off (default = unk)
+
+		- 7.1.2: #notAvailable
+		- 8.0.0: " ... > Notification categories > Popular Links" = all off (default = unk)
+
+		- 7.1.2: #notAvailable
+		- 8.0.0: " ... > Notification categories > Devices" = all off (default = unk)
+
+		- 7.1.2: #notAvailable
+		- 8.0.0: " ... > Notification categories > Devices within reach" = all off (default = unk)
+
+
+	- 7.1.2: "Settings > Personal: Google > Services: Search"
+	- 8.0.0: "Settings > Google > Services: Search"
+
+		- 7.1.2: " ... > Google Assistant: Settings"
+			- Note: only works with Internet connection
+			- Note: not sure what can be done here
+		- 8.0.0: " ... > Google Assistant: Settings"
+			- Note: only works with Internet connection
+			- Note: not sure what can be done here
+
+
+		- 7.1.2: " ... > Search: Notifications > Doodles" = off (default = off)
+		- 8.0.0: " ... > Search: Notifications > Doodles" = off (default = unk)
+
+		- 7.1.2: " ... > Search: Notifications > Your feed > Show feed" = off (default = on)
+			- Note: Alternative path: " ... > Search: Your Feed"
+		- 8.0.0: " ... > Search: Notifications > Your feed > Show feed" = off (default = on)
+
+		- 7.1.2: " ... > Search: Notifications > Your feed > Data saver" = on (default = off)
+		- 8.0.0: " ... > Search: Notifications > Your feed > Data saver" = on (default = off)
+
+		- 7.1.2: " ... > Search: Notifications > Your feed > Reset feed preferences?" = click
+			- Note: keep in mind that it can be reset here
+		- 8.0.0: " ... > Search: Notifications > Your feed > Reset feed preferences?" = click
+			- Note: keep in mind that it can be reset here
+
+
+		- #ref001:
+		- 7.1.2: unk
+		- 8.0.0: " ... > Search: Accounts & privacy > Google Account" = sign out (default = <your-google-account>)
+			- Note: not sure what the benefits/consequences are
+
+		- 7.1.2: unk
+		- 8.0.0: " ... > Search: Accounts & privacy > My activity" = all off/paused (default = unk)
+
+		- 7.1.2: " ... > Search: Accounts & privacy > Enable Recent" = off (default = on)
+		- 8.0.0: " ... > Search: Accounts & privacy > Enable Recent" = off (default = on)
+
+		- 7.1.2: " ... > Search: Accounts & privacy > Signed-out search customization" = off (default = on)
+			- Note: this option is only available when you signed out of your google account (see #ref001)
+		- 8.0.0: " ... > Search: Accounts & privacy > Signed-out search customization" = off (default = on)
+			- Note: this option is only available when you signed out of your google account (see #ref001)
+
+		- 7.1.2: " ... > Search: Accounts & privacy > Open web pages in the Google app" = off (default = on)
+			- Note: not possible to change without connected Google account + Internet connection.
+			- Note: grayed-out, so not possible to change.
+		- 8.0.0: " ... > Search: Accounts & privacy > Open web pages in the Google app" = off (default = on)
+			- Note: not possible to change without connected Google account + Internet connection.
+			- Note: grayed-out, so not possible to change. Needs latest version of Chrome installed.
+
+
+		- 7.1.2: " ... > Search: Voice > Voice Match > Say 'Ok Google' any time" = off (default = unk)
+		- 8.0.0: " ... > Search: Voice > Voice Match > Say 'Ok Google' any time" = off (default = unk)
+
+		- 7.1.2: " ... > Search: Voice > Voice Match > 'Ok Google' voice model: Delete voice model" = click
+			- Note: keep in mind that it can be reset here
+		- 8.0.0: " ... > Search: Voice > Voice Match > 'Ok Google' voice model: Delete voice model" = click
+			- Note: keep in mind that it can be reset here
+
+		- 7.1.2: " ... > Search: Voice > Hands-free > Allow requests with device locked: For Bluetooth devices" = off (default = on)
+		- 8.0.0: " ... > Search: Voice > Hands-free > Allow requests with device locked: For Bluetooth devices" = off (default = unk)
+
+		- 7.1.2: " ... > Search: Voice > Hands-free > Allow requests with device locked: For wired headsets" = off (default = unk)
+		- 8.0.0: " ... > Search: Voice > Hands-free > Allow requests with device locked: For wired headsets" = off (default = unk)
+
+		- 7.1.2: " ... > Search: Voice > Offline speech recognition > AUTO-UPDATE > Do not auto-update languages" = select (default = unselected)
+		- 8.0.0: " ... > Search: Voice > Offline speech recognition > AUTO-UPDATE > Do not auto-update languages" = select (default = unk)
+
+		- 7.1.2: " ... > Search: Voice > Block offensive words" = off (default = on)
+		- 8.0.0: " ... > Search: Voice > Block offensive words" = off (default = unk)
+
+
+		- 7.1.2: " ... > Search > Search: Personal > Show content from: *" = disable all
+		- 8.0.0: " ... > Search > Search: Personal > Show content from: *" = disable all
+
+
+		- 7.1.2: " ... > Search > Search: Offline Search > Always retry searches" = off (default = on)
+		- 8.0.0: " ... > Search > Search: Offline Search > Always retry searches" = off (default = off)
+	
+
+		- 7.1.2: unk
+		- 8.0.0: " ... > Search: Screen search" = unselect all items in list (default = unk)
+
+
+		- 7.1.2: " ... > Search: Auto-complete > Show trending stories" = off (default = on)
+		- 8.0.0: " ... > Search: Auto-complete > Show trending stories" = off (default = unk)
+
+		- 7.1.2: " ... Search > Search: Video > Autoplay" = off (default = on)
+		- 8.0.0: " ... Search > Search: Video > Autoplay" = off (default = on)
+
+
+	- 7.1.2: "Settings > Personal: Google > Services: Security"
+	- 8.0.0: "Settings > Google > Services: Security"
+
+		- 7.1.2: unk
+		- 8.0.0: " ... > Find My Device: Find My Device" = off (default = unk)
+			- Note: here you have to decide between one privacy concern against another
+
+
+	- 7.1.2: " ... > Services: Smart Lock for Passwords > Preferences: Smart Lock for Passwords" = off (default = on)
+	- 8.0.0: " ... > Services: Smart Lock for Passwords > Preferences: Smart Lock for Passwords" = off (default = unk)
+
+	- 7.1.2: " ... > Services: Smart Lock for Passwords > Preferences: Auto sign-in" = off (default = on)
+	- 8.0.0: " ... > Services: Smart Lock for Passwords > Preferences: Auto sign-in" = off (default = unk)
+
+
+- Google Playstore (Google):
+	- 7.1.2: "Play store > #threeHorizontalLines > My apps & games > LIBRARY"
+		- Note: if you uninstall apps, a reference to them will be saved here, so you have to remove it here as well
+	- 8.0.0: "Play store > #threeHorizontalLines > My apps & games > LIBRARY"
+		- Note: if you uninstall apps, a reference to them will be saved here, so you have to remove it here as well
+
+
+	- 7.1.2: "Play store > #threeHorizontalLines > Account > Email preferences > I wish to receive emails with news and offers from Google Play" = off
+	- 8.0.0: "Play store > #threeHorizontalLines > Account > Email preferences > I wish to receive emails with news and offers from Google Play" = off
+
+	- 7.1.2: "Play store > #threeHorizontalLines > Play Protect > Scan device for security threats" = off (default = on)
+		- Note: personal taste, chose what you prefer here.
+		- Note: this will turn off full scanning, but play store apps are still scanned
+	- 8.0.0: "Play store > #threeHorizontalLines > Play Protect > Scan device for security threats" = off (default = on)
+		- Note: personal taste, chose what you prefer here.
+		- Note: this will turn off full scanning, but play store apps are still scanned
+
+	- 7.1.2: "Play store > #threeHorizontalLines > Play Protect > Improve harmful app detection" = off (default = off)
+	- 8.0.0: "Play store > #threeHorizontalLines > Play Protect > Improve harmful app detection" = off (default = off)
+
+
+	- 7.1.2: "Play store > #threeHorizontalLines > Settings > General: Notifications > For your account (<your-google-account>) > Pre-registration" = uncheck (default = unk)
+	- 8.0.0: "Play store > #threeHorizontalLines > Settings > General: Notifications > For your account (<your-google-account>) > Pre-registration" = uncheck (default = unk)
+
+	- 7.1.2: "Play store > #threeHorizontalLines > Settings > General: Notifications > For your account (<your-google-account>) > Deals and promotions" = uncheck (default = unk)
+	- 8.0.0: "Play store > #threeHorizontalLines > Settings > General: Notifications > For your account (<your-google-account>) > Deals and promotions" = uncheck (default = unk)
+
+	- 7.1.2: "Play store > #threeHorizontalLines > Settings > General: Auto-update apps" = Do not auto-update apps.
+	- 8.0.0: "Play store > #threeHorizontalLines > Settings > General: Auto-update apps" = Do not auto-update apps.
+
+	- 7.1.2: "Play store > #threeHorizontalLines > Settings > General: Clear local search history" = click
+		- Note: keep in mind that it can be reset here
+	- 8.0.0: "Play store > #threeHorizontalLines > Settings > General: Clear local search history" = click
+		- Note: keep in mind that it can be reset here
+
+	- 7.1.2: "Play store > #threeHorizontalLines > Settings > User controls: Parental controls" = disable (default = unk)
+	- 8.0.0: "Play store > #threeHorizontalLines > Settings > User controls: Parental controls" = disable (default = unk)
+
+	- 7.1.2: "Play store > #threeHorizontalLines > Settings > User controls: Require authentication for purchases" = For all purchases through Google Play on this device (default = unk)
+	- 8.0.0: "Play store > #threeHorizontalLines > Settings > User controls: Require authentication for purchases" = For all purchases through Google Play on this device (default = unk)
+
+	- 7.1.2: unk
+	- 8.0.0: "Play store > #threeHorizontalLines > Settings > User controls: Use apps without installation" = None (default = unk)
+
+
+- Gboards app (Google):
+	- 7.1.2: "Settings > Languages & input > Keyboard and input methods: Virtual keyboard > Gboard"
+	- 8.0.0: "Settings > System > Languages & input > Keyboard and inputs: Virtual keyboard > Gboard"
+		- 7.1.2: " ... > Preferences > Voice input key" = off (default = on)
+		- 8.0.0: " ... > Preferences > Voice input key" = off (default = unk)
+
+		- 7.1.2: " ... > Text correction > Suggest contacts" = off (default = unk)
+		- 8.0.0: " ... > Text correction > Suggest contacts" = off (default = unk)
+
+		- 7.1.2: " ... > Text correction > Personalized suggestions" = off (default = on)
+		- 8.0.0: " ... > Text correction > Personalized suggestions" = off (default = unk)
+
+		- 7.1.2: " ... > Text correction > Block offensive words" = off (default = on)
+		- 8.0.0: " ... > Text correction > Block offensive words" = off (default = unk)
+
+		- 7.1.2: " ... > Dictionary > Learned words: Sync learned words" = off (default = off)
+		- 8.0.0: " ... > Dictionary > Learned words: Sync learned words" = off (default = off)
+
+		- 7.1.2: " ... > Dictionary > Sync now: Delete learned words" = click
+			- Note: keep in mind that it can be reset here
+		- 8.0.0: " ... > Dictionary > Sync now: Delete learned words" = click
+			- Note: keep in mind that it can be reset here
+
+		- 7.1.2: " ... > Advanced > Improve Gboard: Share usage statistics" = off (default = on)
+		- 8.0.0: " ... > Advanced > Improve Gboard: Share usage statistics" = off (default = unk)
+
+		- 7.1.2: " ... > Advanced > Improve Gboard: Share snippets" = off (default = on)
+		- 8.0.0: " ... > Advanced > Improve Gboard: Share snippets" = off (default = unk)
+
+		- 7.1.2: " ... > Search > Predictive Search" = off (default = unk)
+		- 8.0.0: " ... > Search > Predictive Search" = off (default = unk)
+
+		- 7.1.2: " ... > Search > Show 'Search and more' button" = off (default = unk)
+		- 8.0.0: " ... > Search > Show 'Search and more' button" = off (default = unk)
+
+
+- Contacts app (Google):
+	- 7.1.2: unk
+	- 8.0.0: "Contacts > #threeHorizontalLines > Settings > Accounts > Automatically sync data" = off (default = unk)
+
+
+- Messages app (Google):
+	- 7.1.2: "Messages > #threeVerticalDots > Settings > Advanced > Auto-download MMS" = off (default = on)
+	- 8.0.0: "Messages > #threeVerticalDots > Settings > #selectSimCard > Auto-download MMS" = off (default = on)
+
+
+- Phone app (Google): 
+	- 7.1.2: "Phone > #threeVerticalDots > Settings > Caller ID & spam > Caller ID & spam" = off (default = on)
+		- Note: not sure if this is a privacy issue
+	- 8.0.0: "Phone > #threeVerticalDots > Settings > Caller ID & spam > Caller ID & spam" = off (default = on)
+		- Note: not sure if this is a privacy issue
+
+	- 7.1.2: "Phone > #threeVerticalDots > Settings > Nearby places" = off (default = on)
+	- 8.0.0: "Phone > #threeVerticalDots > Settings > Nearby places" = off (default = unk)
+
+	- 7.1.2: unk
+	- 8.0.0: "Phone > #threeVerticalDots > Settings > Nearby places > Personalized search results" = off (default = unk)
+		- Note: this option is grayed-out and can't be changed
+
+	- 7.1.2: unk
+	- 8.0.0: "Phone > #threeVerticalDots > Settings > Nearby places > Google Account"
+		- Note: this option is grayed-out and can't be opened
+
+	- 7.1.2: unk
+	- 8.0.0: "Phone > #threeVerticalDots > Settings > Nearby places > Location permission is denied" = off (default = unk)
+		- Note: this option is called "Location permission is denied" when set to "off", which is a bit misleading
+
+	- 7.1.2: unk
+	- 8.0.0: "Phone > #threeVerticalDots > Clear frequents" = click
+		- Note: keep in mind that it can be reset here
+
+	- 7.1.2: unk
+	- 8.0.0: "Phone > #threeVerticalDots > Call history > #threeVerticalDots > Clear call history" = click
+		- Note: keep in mind that it can be reset here
+
+
+- Clock app (Google):
+	- 7.1.2: "Clock > #threeVerticalDots > Settings > Automatic home clock" = off (default = on)
+		- Note: not sure what this does.
+	- 8.0.0: "Clock > #threeVerticalDots > Settings > Clock: Automatic home clock" = off (default = on)
+		- Note: not sure what this does.
+
